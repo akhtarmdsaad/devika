@@ -78,7 +78,21 @@ Response Format:
             "user_prompt": "I want to create a report on the project"
         },
         "reply": "<Inform the user what you're doing here in a human-like response>"
-    
+    },
+	{
+		"function": "browser_interaction",
+		"args": {
+			"user_prompt": "<Write the user's prompt but even more verbose and detailed>"
+		},
+		"reply": "<Inform the user what you're doing here in a human-like response>"
+	},
+	{
+		"function": "coding_project",
+		"args": {
+			"user_prompt": "<Write the user's prompt but even more verbose and detailed>"
+		},
+		"reply": "<Inform the user what you're doing here in a human-like response>"
+	}
 ]
 ```
 
